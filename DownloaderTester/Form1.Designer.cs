@@ -43,6 +43,8 @@
             this.c3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.c4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.c5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.c6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.c7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pauseBtn = new System.Windows.Forms.Button();
             this.startBnt = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -53,9 +55,7 @@
             this.resumeAllBtn = new System.Windows.Forms.Button();
             this.removeBtn = new System.Windows.Forms.Button();
             this.removeAllBtn = new System.Windows.Forms.Button();
-            this.c6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.refreshLvTimer = new System.Windows.Forms.Timer(this.components);
-            this.c7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // label1
@@ -142,7 +142,7 @@
             this.lv.GridLines = true;
             this.lv.Location = new System.Drawing.Point(49, 200);
             this.lv.Name = "lv";
-            this.lv.Size = new System.Drawing.Size(866, 197);
+            this.lv.Size = new System.Drawing.Size(1086, 197);
             this.lv.TabIndex = 4;
             this.lv.UseCompatibleStateImageBehavior = false;
             this.lv.View = System.Windows.Forms.View.Details;
@@ -151,7 +151,7 @@
             // c1
             // 
             this.c1.Text = "文件名";
-            this.c1.Width = 200;
+            this.c1.Width = 140;
             // 
             // c2
             // 
@@ -172,6 +172,16 @@
             // 
             this.c5.Text = "下载速度";
             this.c5.Width = 100;
+            // 
+            // c6
+            // 
+            this.c6.Text = "完成度";
+            this.c6.Width = 90;
+            // 
+            // c7
+            // 
+            this.c7.Text = "异常描述";
+            this.c7.Width = 300;
             // 
             // pauseBtn
             // 
@@ -268,20 +278,11 @@
             this.removeAllBtn.UseVisualStyleBackColor = true;
             this.removeAllBtn.Click += new System.EventHandler(this.removeAllBtn_Click);
             // 
-            // c6
-            // 
-            this.c6.Text = "异常描述";
-            this.c6.Width = 90;
-            // 
             // refreshLvTimer
             // 
             this.refreshLvTimer.Enabled = true;
             this.refreshLvTimer.Interval = 800;
             this.refreshLvTimer.Tick += new System.EventHandler(this.refreshLvTimer_Tick);
-            // 
-            // c7
-            // 
-            this.c7.Text = "完成度";
             // 
             // Form1
             // 

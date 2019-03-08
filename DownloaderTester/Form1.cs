@@ -69,8 +69,8 @@ namespace DownloaderTester
                 lvi.SubItems.Add(task.BytesWritten + "");
                 lvi.SubItems.Add(task.Status + "");
                 lvi.SubItems.Add(task.getSpeed(true) + "");
+                lvi.SubItems.Add(task.getPercentage(2) + " %");
                 lvi.SubItems.Add(task.ExceptionInfo);
-                lvi.SubItems.Add(task.getPercentage(1) + "");
                 lv.EndUpdate();
                 lv.Items.Add(lvi);
                 //infoRtb.AppendText(task.getSpeed(true) + "" + task.getSpeed(false) + "\n\r");
